@@ -9,16 +9,21 @@ h1 {
     color: royalblue
 }
 
-.profile-image {
-    width: 150px;
-    height: auto;
-}
-
-.test-container {
-    height: 100px;
+.skill-container {
+    height: 120px;
     background-color: #e2e2e2;
     margin: 20px auto;
     width: 500px;
+
+    /* 기술스택 스크롤바 구현*/
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.skill-logo {
+    width: 100px;
+    height: auto;
+    margin: 0 15px;
 }
 
 .profile-container {
@@ -29,6 +34,16 @@ h1 {
     background-color: white;
     border: 1px solid lightgray;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-container:hover {
+    transform: scale(1.03);
+
+}
+
+.profile-image {
+    width: 150px;
+    height: auto;
 }
 
 .nav-bar {
