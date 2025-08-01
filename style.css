@@ -1,29 +1,13 @@
+/* 공통영역 */
 body {
     height: 100%;
     background-color: #f7f7f7;
-    color: black;
+    color: #333;
     text-align: center;
 }
 
 h1 {
     color: royalblue
-}
-
-.skill-container {
-    height: 120px;
-    background-color: #e2e2e2;
-    margin: 20px auto;
-    width: 500px;
-
-    /* 기술스택 스크롤바 구현*/
-    overflow-x: auto;
-    white-space: nowrap;
-}
-
-.skill-logo {
-    width: 100px;
-    height: auto;
-    margin: 0 15px;
 }
 
 .profile-container {
@@ -48,4 +32,62 @@ h1 {
 
 .nav-bar {
     margin-top: 20px;
+}
+
+.contact-fixed {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    
+    background-color: royalblue;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    
+    padding: 15px 20px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    padding: 30px 0;
+    background-color: #e9e9e9;
+    color: #666;
+    margin-top: 50px;
+}
+
+/* 기술스택 */
+.skill-container {
+    height: 120px;
+    background-color: #e2e2e2;
+    margin: 20px auto;
+    width: 500px;
+
+    /* 기술스택 스크롤바 구현*/
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.skill-logo {
+    width: 100px;
+    height: auto;
+    margin: 0 15px;
+}
+
+
+/* 히스토리 */
+.history {
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.history:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.history p {
+    margin: 0;
+    color: #666;
 }
