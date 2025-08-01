@@ -1,0 +1,32 @@
+body {
+    height: 100%;
+    color: black;
+    text-align: center;
+}
+
+h1 {
+    color: royalblue
+}
+
+.profile-image {
+    width: 150px;
+    height: auto;
+}
+
+.test-container {
+    height: 100px;
+    background-color: #e2e2e2;
+    margin: 20px auto;
+    width: 500px;
+}
+
+.profile-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.nav-bar {
+    margin-top: 20px;
+}
