@@ -91,3 +91,15 @@ footer {
     margin: 0;
     color: #666;
 }
+
+/* 취미 */
+.hobby-images {
+   margin-bottom: 50px;
+}
+
+.hobby-image {
+   max-width: 300px;
+   height: auto;
+   border-radius: 8px;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
