@@ -95,6 +95,10 @@ h1 {
     transition: all 0.3s;
 }
 
+.contact-fixed:hover {
+    transform: scale(1.2);
+}
+
 /* 페이지 이동 버튼 */
 .nav-button {
     display: inline-block;
