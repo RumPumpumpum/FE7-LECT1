@@ -18,11 +18,12 @@ h1 {
     background-color: white;
     border: 1px solid lightgray;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+
 }
 
 .profile-container:hover {
-    transform: scale(1.03);
-
+    transform: scale(1.05);
 }
 
 .profile-image {
@@ -55,6 +56,25 @@ footer {
     color: #666;
     margin-top: 50px;
 }
+
+/* 페이지 이동 버튼 */
+.nav-button {
+    display: inline-block;
+    text-decoration: none;
+    color: royalblue;
+    font-weight: bold;
+    border: 1px solid royalblue;
+    padding: 10px 20px;
+    margin: 0 5px;
+    transition: all 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.nav-button:hover {
+    transform: scale(1.2);
+}
+/* 공통영역 끝*/
 
 /* 기술스택 */
 .skill-container {
