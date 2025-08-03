@@ -122,20 +122,25 @@ footer {
 
 
 /* 히스토리 */
-.history {
+.history-container {
     border-bottom: 1px solid #f0f0f0;
     padding-bottom: 20px;
     margin-bottom: 20px;
 }
 
-.history:last-child {
+.history-container:last-child {
     border-bottom: none;
     margin-bottom: 0;
 }
 
-.history p {
+.history-container p {
     margin: 0;
     color: #666;
+}
+
+.history-container img {
+    width: 200px;
+    height: auto;
 }
 
 /* 프로젝트 */
