@@ -10,19 +10,9 @@ h1 {
     color: royalblue
 }
 
+/* 중앙 프로필 영역*/
 .profile-container {
-    text-align: center;
-    max-width: 600px;
-    margin: 40px auto;
-    padding: 0px 0px 40px 0px;
-    background-color: white;
-    border: 1px solid lightgray;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: all 0.5s;
-    border-radius: 8px 8px 8px 8px;
-
     animation: profileAnimation 1.5s;
-
 }
 
 @keyframes profileAnimation {
@@ -40,15 +30,10 @@ h1 {
     }
 }
 
-.profile-image {
-    width: 150px;
-    height: auto;
-}
-
 .ui-bar {
     max-width: 600px;
-    margin: 0px 0px 40px 0px;
-    /* ui bar 색을 회색으로 할 지, royalblue로 할 지 선택 */
+    
+    margin: 0px auto;
     background-color: royalblue;
     
     border: 1px solid lightgray;
@@ -63,9 +48,28 @@ h1 {
     padding-left: 10px;
 }
 
+.contents {
+    text-align: center;
+    max-width: 600px;
+    margin: 0px auto;
+    padding: 40px 0px;
+    background-color: white;
+    border: 1px solid lightgray;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.profile-image {
+    width: 150px;
+    height: auto;
+}
+
 .nav-bar {
     margin-top: 20px;
 }
+
+/* 중앙 프로필 영역 끝 */
 
 .external-fixed-container {
     position: fixed;
