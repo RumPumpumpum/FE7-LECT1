@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <title>TITLE</title>
+    <style>
+        .grid-box {
+            display: grid;
+            width: 500px;
+            height: 500px;
+            grid-template-columns: repeat(5, 100px);
+            grid-template-rows: repeat(3, 50px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .grid-box > div:nth-child(even) {
+            background: blue;
+        }
+        
+        .grid-box > div:nth-child(odd) {
+            background: red;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="grid-box">
+        <div>
+            빨
+        </div>
+        <div>
+            파
+        </div>    
+                <div>
+            빨
+        </div>
+        <div>
+            파
+        </div>   
+    </div>
+</body>
+</html>
